@@ -1,0 +1,280 @@
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.bg {
+    background-color: #f2f4f6;
+}
+
+.aboutHedingBg {
+    background-color: white;
+}
+
+.container-fluid {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    margin: 0px 25px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 12px 0;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.home {
+    color: #3a3a3a;
+}
+
+.color {
+    color: #2f9ee2;
+}
+
+.navbar ul li .color:hover {
+    border-bottom: 1px solid #3a3a3a;
+    color: #3a3a3a;
+    transition: 0.5s;
+}
+
+
+.container .title {
+    padding: 160px 0 150px;
+}
+
+.container .title h1 {
+    color: #e9e9e9fc;
+    font-size: 10em;
+    letter-spacing: -8px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.container .title h2 {
+    font-size: 4em;
+    font-weight: 700;
+}
+
+.bootImg {
+    background-image: url('fit.jpg');
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    margin: 0 0 100px 0;
+    height: 80vh;
+    width: 100%;
+}
+
+.imgHeding {
+    padding: 300px 80px 100px;
+    color: white;
+}
+
+.imgHeding h2 {
+    font-size: 60px;
+}
+
+.oneTofore {
+    margin: 0 0 90px;
+}
+
+.heding h1 {
+    font-size: 120px;
+    color: #4b4f580f;
+    font-weight: 900;
+}
+
+.heding h4 {
+    text-align: center;
+    margin-top: -85px;
+    font-size: 24px;
+}
+
+.heding p {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 15px;
+}
+
+.History​ {
+    margin: 130px 0;
+}
+
+.textFohistory {
+    text-align: center;
+}
+
+.textFohistory h4 {
+    font-weight: 700;
+}
+
+.textFohistory h2 {
+    font-size: 60px;
+    font-weight: 700;
+    margin: 30px 0;
+}
+
+.textFohistory p {
+    color: #515357fc;
+    font-size: 15px;
+    margin: 30px 0;
+}
+
+.btn {
+    background-color: white;
+    box-shadow: 0 5px 65px -10px rgba(0, 0, 0, .4);
+    padding: 18px 40px;
+    border-radius: 50px;
+    margin-top: 50px;
+    font-size: 15px;
+    color: #3a3a3a;
+}
+
+.btn:hover {
+    background-color: #3a3a3a;
+    color: white;
+    transition: 0.3s;
+}
+
+.threeImg {
+    margin: 0 0 90px 0;
+}
+
+.threeImg .img1,
+.img2,
+.img3 {
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 85vh;
+    padding: 0;
+    box-shadow: inset 0 -180px 150px -100px black;
+}
+
+.allPick {
+    text-align: center;
+    color: white;
+    font-style: italic;
+    letter-spacing: -3px;
+}
+
+.allPick h2 {
+    margin: 520px 0 43px;
+    font-size: 3em;
+}
+
+.threeImg .img1 {
+    background-image: url('1.jpg');
+}
+
+.threeImg .img2 {
+    background-image: url('2.jpg');
+}
+
+.threeImg .img3 {
+    background-image: url('3.jpg');
+}
+
+/* footer */
+.padd {
+    margin: 0 0;
+}
+
+footer .firstFooter {
+    background-color: #F2F4F6;
+    padding: 100px 20px;
+}
+
+aside {
+    width: 100%;
+}
+
+.gap {
+    margin: 0 120px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 20px;
+    justify-content: space-between;
+}
+
+.footerData {
+    text-align: left;
+}
+
+.footerDatainfo h2 {
+    font-size: 1.5rem;
+    color: #515357fc;
+    font-weight: 700;
+    margin-bottom: 1em;
+}
+
+
+.subData ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.subData ul li a {
+    color: #3a3a3a;
+}
+
+.subData ul li {
+    font-size: 15px;
+}
+
+.subData ul li a:hover {
+    color: #2f9ee2;
+    transition: 0.5s;
+}
+
+.followUs {
+    margin: 25px 0 0 0;
+}
+
+.allIcon {
+    display: flex;
+    gap: 12px;
+}
+
+.allIcon i {
+    padding: 8px;
+    background-color: #c2c2c273;
+    color: black;
+}
+
+.allIcon i:hover {
+    color: white;
+    background-color: #2f9ee2;
+}
+
+hr {
+    height: 4px;
+    border: none;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+footer .secondFooter {
+    background-color: #F2F4F6;
+    display: flex;
+    gap: 32%;
+    padding: 40px 0;
+    justify-content: space-around;
+}
